@@ -203,96 +203,163 @@ const TESTIMONIALS = [
 ];
 
 /* ============================================================
-   POLICIES CONTENT
+   POLICIES CONTENT (Airwallex Compliant)
    ============================================================ */
 const PRIVACY_POLICY = `
 **Last Updated: August 1, 2026**
+**Effective Date: August 1, 2026**
 
-NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
+NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (www.nexasoft.io) or use our services. This policy is designed to comply with applicable data protection laws including the Hong Kong Personal Data (Privacy) Ordinance (PDPO), GDPR, and other relevant regulations.
 
-## 1. Information We Collect
+## 1. Data Controller Information
 
-We may collect the following types of information:
+**Company Name:** NexaSoft Solutions Limited
+**Business Registration Number:** 80954108
+**Registered Address:** Suite 1205, 12/F, Tower B, 88 Queensway, Admiralty, Hong Kong
+**Email:** info@nexasoft.io
+**Phone:** +852 5800 1234
+**Governing Law:** Hong Kong SAR
 
-**Personal Information:** Name, email address, phone number, company name, and billing address when you make a purchase, request a quote, or contact us through our forms.
+## 2. Information We Collect
 
-**Technical Information:** IP address, browser type, operating system, device identifiers, pages visited, time spent on pages, and referring URLs, collected automatically through cookies and similar technologies.
+### 2.1 Personal Information
+We may collect the following personal information when you interact with our services:
+- Full name, email address, phone number
+- Company name, business registration details
+- Billing address and shipping address
+- Payment information (processed securely via third-party payment providers)
+- Project requirements and specifications
 
-**Payment Information:** When you make a purchase, payment details are processed securely through our payment service provider. We do not store full credit card numbers on our servers.
+### 2.2 Technical Information
+Automatically collected through cookies and similar technologies:
+- IP address, browser type, and operating system
+- Device identifiers and screen resolution
+- Pages visited, time spent on pages, and referring URLs
+- Search queries and navigation patterns
 
-**Communication Data:** Records of correspondence when you contact us via email, phone, or contact forms.
+### 2.3 Communication Data
+- Records of correspondence via email, phone, or contact forms
+- Support tickets and feedback submissions
+- Marketing preferences and consent records
 
-## 2. How We Use Your Information
+## 3. Legal Basis for Processing
+
+We process your personal data based on the following legal grounds:
+- **Contract Performance:** To fulfill our obligations under service agreements
+- **Legitimate Interest:** To improve our services, prevent fraud, and ensure security
+- **Consent:** For marketing communications and optional cookies
+- **Legal Obligation:** To comply with applicable laws and regulations
+
+## 4. How We Use Your Information
 
 We use the information we collect to:
-
 - Process and fulfill your orders for software development services
 - Provide customer support and respond to your inquiries
-- Send you order confirmations, invoices, and service updates
+- Send order confirmations, invoices, and service updates
 - Improve our website, services, and user experience
 - Send promotional communications (only with your consent)
 - Comply with legal obligations and enforce our agreements
 - Detect, prevent, and address fraud and security issues
+- Process payments securely through our payment service providers
 
-## 3. Information Sharing and Disclosure
+## 5. Information Sharing and Disclosure
 
 We do not sell, trade, or rent your personal information to third parties. We may share your information with:
 
-- **Service Providers:** Trusted third parties who assist us in operating our website, processing payments, or delivering services, subject to confidentiality agreements.
-- **Legal Requirements:** When required by law, regulation, legal process, or governmental request.
-- **Business Transfers:** In connection with any merger, acquisition, or sale of company assets.
+- **Payment Service Providers:** Airwallex and other secure payment processors for transaction processing
+- **Service Providers:** Trusted third parties who assist us in operating our website, processing payments, or delivering services, subject to confidentiality agreements
+- **Legal Requirements:** When required by law, regulation, legal process, or governmental request
+- **Business Transfers:** In connection with any merger, acquisition, or sale of company assets
 
-## 4. Data Security
+## 6. Data Security
 
-We implement industry-standard security measures including SSL encryption, secure server infrastructure, regular security audits, and access controls to protect your personal information. However, no method of internet transmission or electronic storage is 100% secure.
+We implement industry-standard security measures including:
+- SSL/TLS encryption for all data in transit
+- AES-256 encryption for sensitive data at rest
+- Secure server infrastructure with regular security audits
+- Access controls and authentication mechanisms
+- Regular penetration testing and vulnerability assessments
 
-## 5. Cookies and Tracking Technologies
+However, no method of internet transmission or electronic storage is 100% secure. We cannot guarantee absolute security but will promptly notify you in the event of a data breach.
 
-Our website uses cookies and similar technologies to enhance your browsing experience, analyze site traffic, and understand user preferences. You can control cookie settings through your browser. Disabling cookies may affect some website functionality.
+## 7. Cookies and Tracking Technologies
 
-## 6. Data Retention
+Our website uses the following types of cookies:
 
-We retain your personal information for as long as necessary to fulfill the purposes described in this policy, unless a longer retention period is required by law. When data is no longer needed, it is securely deleted or anonymized.
+- **Essential Cookies:** Required for basic website functionality
+- **Analytics Cookies:** To understand how visitors interact with our website
+- **Marketing Cookies:** To deliver relevant advertisements (only with consent)
 
-## 7. Your Rights
+You can control cookie settings through your browser. Disabling cookies may affect some website functionality.
+
+## 8. Data Retention
+
+We retain your personal information for as long as necessary to fulfill the purposes described in this policy:
+- **Account Information:** Duration of the business relationship plus 7 years
+- **Financial Records:** 7 years as required by Hong Kong tax regulations
+- **Marketing Data:** Until consent is withdrawn
+- **Technical Logs:** 12 months for security purposes
+
+When data is no longer needed, it is securely deleted or anonymized.
+
+## 9. Your Rights
 
 Depending on your location, you may have the right to:
+- **Access:** Request a copy of the personal data we hold about you
+- **Rectification:** Request correction of inaccurate or incomplete data
+- **Erasure:** Request deletion of your personal data (subject to legal obligations)
+- **Restriction:** Request limitation of processing in certain circumstances
+- **Portability:** Receive your data in a structured, machine-readable format
+- **Objection:** Object to processing based on legitimate interests
+- **Withdraw Consent:** Withdraw consent for processing at any time
 
-- Access, correct, or delete your personal information
-- Object to or restrict processing of your data
-- Request data portability
-- Withdraw consent at any time
+To exercise these rights, please contact us at ${BUSINESS.email}. We will respond to your request within 30 days.
 
-To exercise these rights, please contact us at ${BUSINESS.email}.
+## 10. International Data Transfers
 
-## 8. Third-Party Links
+Your information may be transferred to and processed in countries outside Hong Kong. We ensure appropriate safeguards are in place, including standard contractual clauses approved by relevant authorities.
+
+## 11. Third-Party Links
 
 Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of those external sites. We encourage you to review their privacy policies before providing any personal information.
 
-## 9. Children's Privacy
+## 12. Children's Privacy
 
-Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children.
+Our services are not directed to individuals under the age of 18. We do not knowingly collect personal information from children. If we become aware that we have collected personal data from a child, we will take steps to delete it promptly.
 
-## 10. Changes to This Policy
+## 13. Changes to This Policy
 
-We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date. Your continued use of the website after any changes constitutes acceptance of the updated policy.
+We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated revision date and, where appropriate, notified to you by email. Your continued use of the website after any changes constitutes acceptance of the updated policy.
 
-## 11. Contact Us
+## 14. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us:
+If you have any questions about this Privacy Policy or wish to exercise your rights, please contact us:
 
 **NexaSoft Solutions Limited**
+Business Registration No.: ${BUSINESS.registrationNumber}
 ${BUSINESS.address}
 Email: ${BUSINESS.email}
 Phone: ${BUSINESS.phone}
+
+For data protection inquiries, please email: privacy@nexasoft.io
 `;
 
 const REFUND_POLICY = `
 **Last Updated: August 1, 2026**
+**Effective Date: August 1, 2026**
 
-At NexaSoft Solutions Limited, we strive to deliver exceptional software development services. This Refund Policy outlines the conditions under which refunds may be issued for our products and services.
+At NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our"), we strive to deliver exceptional software development services. This Refund Policy outlines the conditions under which refunds may be issued for our products and services. This policy complies with applicable consumer protection laws and Airwallex payment method requirements.
 
-## 1. Service Deposits and Milestone Payments
+## 1. Company Information
+
+**Company Name:** NexaSoft Solutions Limited
+**Business Registration Number:** 80954108
+**Registered Address:** Suite 1205, 12/F, Tower B, 88 Queensway, Admiralty, Hong Kong
+**Email:** info@nexasoft.io
+**Phone:** +852 5800 1234
+**Governing Law:** Hong Kong SAR
+
+## 2. Service Deposits and Milestone Payments
 
 For custom software development projects:
 
@@ -300,9 +367,11 @@ For custom software development projects:
 
 - **Milestone Payments:** Milestone payments are released upon client approval of completed deliverables. Once a milestone has been approved and payment processed, refunds for that milestone are not available.
 
-- **Project Cancellation:** If you choose to cancel a project after work has begun, you will be billed for all completed work up to the date of cancellation. Any remaining balance will be refunded within 30 business days.
+- **Project Cancellation:** If you choose to cancel a project after work has begun, you will be billed for all completed work up to the date of cancellation. Any remaining balance will be refunded within 30 business days via the original payment method.
 
-## 2. Pre-Built Software Products
+- **Scope Changes:** If project scope changes result in additional costs, these will be communicated in writing before proceeding. Refunds for scope changes follow the same milestone-based policy.
+
+## 3. Pre-Built Software Products
 
 For pre-built software packages and licenses:
 
@@ -310,7 +379,9 @@ For pre-built software packages and licenses:
 
 - **Refund Process:** To initiate a refund, contact our support team at ${BUSINESS.email} with your order number and reason for the refund request. Refunds are processed within 14 business days after approval.
 
-## 3. Subscription Services
+- **License Revocation:** Upon refund approval, any software licenses issued will be revoked and you must cease all use of the refunded product.
+
+## 4. Subscription Services
 
 For ongoing subscription and support plans:
 
@@ -318,7 +389,9 @@ For ongoing subscription and support plans:
 
 - **Annual Subscriptions:** If you cancel an annual subscription within the first 30 days, you will receive a prorated refund for the unused months. After 30 days, cancellations take effect at the end of the current subscription period.
 
-## 4. Non-Refundable Items
+- **Free Trial Periods:** If a free trial is offered, you may cancel at any time during the trial period without incurring charges. After the trial period ends, standard subscription terms apply.
+
+## 5. Non-Refundable Items
 
 The following are not eligible for refunds:
 
@@ -326,8 +399,10 @@ The following are not eligible for refunds:
 - Third-party service licenses purchased on your behalf
 - Custom branding or design work that has been delivered
 - Training sessions that have been attended
+- Work completed and approved under milestone-based agreements
+- Administrative or setup fees
 
-## 5. How to Request a Refund
+## 6. How to Request a Refund
 
 To request a refund, please:
 
@@ -335,22 +410,45 @@ To request a refund, please:
 2. Include your full name, company name, and contact information
 3. Provide the order number and date of purchase
 4. Describe the reason for your refund request
+5. Attach any relevant documentation or evidence
 
-Our team will review your request and respond within 5 business days.
+Our team will review your request and respond within 5 business days. Refunds will be processed using the original payment method within 14 business days of approval.
 
-## 6. Shipping and Delivery (For Physical Products)
+## 7. Shipping and Delivery (For Physical Products)
 
 While our primary services are digital, if any physical products or materials are shipped:
 
-- Delivery times are estimates and may vary based on location
-- Shipping costs are non-refundable unless the product is defective or incorrect
-- We are not responsible for delays caused by customs, weather, or carrier issues
+- **Delivery Times:** Delivery times are estimates and may vary based on location and customs processing. Standard delivery is typically 5-10 business days for domestic shipments and 10-20 business days for international shipments.
 
-## 7. Contact Us
+- **Shipping Costs:** Shipping costs are non-refundable unless the product is defective or incorrect. Return shipping for defective products will be covered by NexaSoft.
+
+- **Customs and Duties:** International shipments may be subject to customs duties and taxes, which are the responsibility of the recipient.
+
+- **Risk of Loss:** Risk of loss and title for physical products pass to you upon delivery to the carrier. We recommend purchasing shipping insurance for high-value items.
+
+- **Damaged or Defective Products:** If you receive a damaged or defective product, contact us within 7 days of receipt with photographic evidence. We will arrange for replacement or refund at our discretion.
+
+- **Returns:** Physical products may be returned within 14 days of receipt in original condition. Return shipping costs are the responsibility of the customer unless the product is defective.
+
+## 8. Dispute Resolution
+
+If you are unsatisfied with our refund decision, you may:
+
+1. Request a review by our management team
+2. Contact us to discuss alternative solutions
+3. Pursue resolution through the Hong Kong Consumer Council
+4. File a complaint with relevant regulatory authorities
+
+## 9. Changes to This Policy
+
+We reserve the right to modify this Refund Policy at any time. Changes will be effective upon posting to our website. Your continued use of our services after changes are posted constitutes acceptance of the updated policy.
+
+## 10. Contact Us
 
 For any questions about this Refund Policy, please contact:
 
 **NexaSoft Solutions Limited**
+Business Registration No.: ${BUSINESS.registrationNumber}
 ${BUSINESS.address}
 Email: ${BUSINESS.email}
 Phone: ${BUSINESS.phone}
@@ -358,71 +456,125 @@ Phone: ${BUSINESS.phone}
 
 const TERMS_CONDITIONS = `
 **Last Updated: August 1, 2026**
+**Effective Date: August 1, 2026**
 
-These Terms and Conditions ("Terms") govern your access to and use of the website and services provided by NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our"). By accessing or using our website and services, you agree to be bound by these Terms.
+These Terms and Conditions ("Terms") govern your access to and use of the website (www.nexasoft.io) and services provided by NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our"). By accessing or using our website and services, you agree to be bound by these Terms. These Terms comply with applicable laws of Hong Kong SAR and Airwallex payment method requirements.
 
-## 1. Definitions
+## 1. Company Information
+
+**Company Name:** NexaSoft Solutions Limited
+**Business Registration Number:** 80954108
+**Registered Address:** Suite 1205, 12/F, Tower B, 88 Queensway, Admiralty, Hong Kong
+**Email:** info@nexasoft.io
+**Phone:** +852 5800 1234
+**Website:** www.nexasoft.io
+**Governing Law:** Hong Kong SAR
+
+## 2. Definitions
 
 - **"Services"** means custom software development, web development, mobile app development, cloud solutions, cybersecurity services, IT consulting, and any other services provided by NexaSoft.
 - **"Client"** or **"you"** means the individual or entity accessing or using our services.
 - **"Website"** means www.nexasoft.io and all associated pages.
+- **"Deliverables"** means the work products, code, documentation, and materials provided to the client as part of the services.
+- **"Intellectual Property"** means patents, copyrights, trademarks, trade secrets, and other proprietary rights.
 
-## 2. Services Agreement
+## 3. Services Agreement
 
 By purchasing our services, you agree to:
-
 - Provide accurate and complete information necessary for service delivery
 - Cooperate with our team during the development process
 - Review and provide timely feedback on deliverables
 - Comply with all applicable laws and regulations
+- Maintain the confidentiality of any access credentials provided
 
-## 3. Project Engagement
+## 4. Project Engagement
 
 - **Proposals and Quotes:** All project proposals and quotes are valid for 30 days from the date of issue unless otherwise stated.
 - **Scope Changes:** Any changes to the agreed project scope may result in adjustments to the timeline and cost. Change requests must be submitted in writing and approved by both parties.
 - **Timeline:** Project timelines are estimates based on the scope agreed upon at the start of the engagement. NexaSoft will make reasonable efforts to meet agreed deadlines but is not liable for delays caused by factors beyond our control.
+- **Client Responsibilities:** The client is responsible for providing timely access to necessary systems, data, and personnel. Delays caused by the client may extend project timelines proportionally.
 
-## 4. Intellectual Property
+## 5. Intellectual Property
 
 - **Client IP:** All intellectual property developed specifically for the client during a project engagement shall be transferred to the client upon full payment.
 - **NexaSoft IP:** Pre-existing tools, frameworks, libraries, and methodologies used in delivering services remain the intellectual property of NexaSoft. Clients receive a perpetual, non-exclusive license to use these components.
 - **Third-Party Components:** Third-party open-source or licensed components are subject to their respective license terms.
+- **Portfolio Rights:** NexaSoft may include the client's name and logo in its portfolio and marketing materials unless the client objects in writing.
 
-## 5. Payment Terms
+## 6. Payment Terms
 
 - Invoices are issued according to the payment schedule agreed upon in the project proposal.
 - Payment is due within 14 days of invoice date unless otherwise specified.
 - Late payments may incur interest at a rate of 1.5% per month on the outstanding balance.
 - NexaSoft reserves the right to suspend work on any project with overdue payments.
+- All prices are quoted in USD unless otherwise specified.
+- Currency conversion fees and bank transfer charges are the responsibility of the client.
 
-## 6. Confidentiality
+## 7. Confidentiality
 
-Both parties agree to keep confidential any proprietary or sensitive information shared during the course of the engagement. This obligation survives the termination of these Terms.
+Both parties agree to keep confidential any proprietary or sensitive information shared during the course of the engagement. This obligation survives the termination of these Terms for a period of 3 years. Confidential information includes but is not limited to:
+- Business strategies and financial information
+- Technical specifications and source code
+- Customer data and lists
+- Trade secrets and proprietary processes
 
-## 7. Warranties and Disclaimers
+## 8. Data Protection
+
+- Both parties must comply with applicable data protection laws, including the Hong Kong Personal Data (Privacy) Ordinance.
+- NexaSoft will process personal data only as necessary to provide the services and in accordance with client instructions.
+- The client warrants that it has obtained all necessary consents for the processing of personal data.
+- Data processing addendums may be executed for projects involving personal data processing.
+
+## 9. Warranties and Disclaimers
 
 - **Service Warranty:** NexaSoft warrants that services will be performed in a professional and workmanlike manner. For custom development, we provide a 90-day warranty period from project delivery to address any bugs or defects at no additional cost.
+- **Warranty Exclusions:** The warranty does not cover issues caused by modifications made by the client, third-party software, or changes in third-party platform requirements.
 - **AS-IS:** Except as expressly stated, our website and services are provided "as is" without warranties of any kind, either express or implied.
 
-## 8. Limitation of Liability
+## 10. Limitation of Liability
 
-To the maximum extent permitted by law, NexaSoft's total liability for any claims arising from or related to these Terms or our services shall not exceed the total amount paid by the client for the specific service giving rise to the claim.
+To the maximum extent permitted by law:
+- NexaSoft's total liability for any claims arising from or related to these Terms or our services shall not exceed the total amount paid by the client for the specific service giving rise to the claim.
+- NexaSoft shall not be liable for indirect, incidental, special, consequential, or punitive damages.
+- NexaSoft shall not be liable for loss of profits, data, business opportunities, or goodwill.
 
-## 9. Termination
+## 11. Indemnification
+
+The client agrees to indemnify and hold harmless NexaSoft from any claims, losses, or damages arising from:
+- The client's use of the services in violation of these Terms
+- The client's violation of applicable laws or regulations
+- Any content or data provided by the client to NexaSoft
+- Infringement of third-party intellectual property rights by the client
+
+## 12. Termination
 
 - Either party may terminate a service engagement with 30 days' written notice.
+- NexaSoft may terminate immediately if the client breaches any material term of these Terms.
 - Upon termination, the client is responsible for payment of all work completed up to the termination date.
 - NexaSoft will provide all completed deliverables and source code upon receipt of outstanding payments.
+- Confidentiality obligations survive termination.
 
-## 10. Governing Law and Dispute Resolution
+## 13. Force Majeure
 
-These Terms are governed by and construed in accordance with the laws of ${BUSINESS.governingLaw}. Any disputes arising from these Terms shall be resolved through good-faith negotiation. If negotiation fails, disputes shall be submitted to the exclusive jurisdiction of the courts of ${BUSINESS.governingLaw}.
+Neither party shall be liable for delays or failures in performance resulting from causes beyond reasonable control, including natural disasters, pandemics, government actions, or other force majeure events.
 
-## 11. Modifications
+## 14. Governing Law and Dispute Resolution
 
-NexaSoft reserves the right to modify these Terms at any time. Changes will be effective upon posting to our website. Continued use of our services after modifications constitutes acceptance of the revised Terms.
+These Terms are governed by and construed in accordance with the laws of ${BUSINESS.governingLaw}. Any disputes arising from these Terms shall be resolved through good-faith negotiation. If negotiation fails within 30 days, disputes shall be submitted to the exclusive jurisdiction of the courts of ${BUSINESS.governingLaw}.
 
-## 12. Contact Information
+## 15. Severability
+
+If any provision of these Terms is found to be unenforceable or invalid, that provision will be limited or eliminated to the minimum extent necessary, and the remaining provisions will remain in full force and effect.
+
+## 16. Entire Agreement
+
+These Terms, together with any applicable project proposals, statements of work, and data processing agreements, constitute the entire agreement between the parties and supersede all prior communications, representations, or agreements.
+
+## 17. Modifications
+
+NexaSoft reserves the right to modify these Terms at any time. Changes will be effective upon posting to our website. Continued use of our services after modifications constitutes acceptance of the revised Terms. Material changes will be notified via email to existing clients.
+
+## 18. Contact Information
 
 For questions about these Terms and Conditions, please contact:
 
@@ -431,6 +583,210 @@ Business Registration No.: ${BUSINESS.registrationNumber}
 ${BUSINESS.address}
 Email: ${BUSINESS.email}
 Phone: ${BUSINESS.phone}
+`;
+
+const SHIPPING_POLICY = `
+**Last Updated: August 1, 2026**
+**Effective Date: August 1, 2026**
+
+This Shipping Policy outlines the terms and conditions for delivery of physical products, materials, and documentation provided by NexaSoft Solutions Limited ("NexaSoft," "we," "us," or "our"). This policy complies with Airwallex payment method requirements and applicable consumer protection laws.
+
+## 1. Company Information
+
+**Company Name:** NexaSoft Solutions Limited
+**Business Registration Number:** 80954108
+**Registered Address:** Suite 1205, 12/F, Tower B, 88 Queensway, Admiralty, Hong Kong
+**Email:** info@nexasoft.io
+**Phone:** +852 5800 1234
+**Governing Law:** Hong Kong SAR
+
+## 2. Products and Services Covered
+
+This Shipping Policy applies to:
+- Physical hardware devices (servers, networking equipment, security tokens)
+- Documentation and training materials in physical format
+- Promotional materials and branded merchandise
+- Replacement parts and components
+
+Note: Our primary services are digital software development and consulting. Physical shipping is limited to specific project requirements and hardware deliveries.
+
+## 3. Shipping Methods and Timeframes
+
+### 3.1 Domestic Shipping (Hong Kong SAR)
+
+- **Standard Delivery:** 3-5 business days
+- **Express Delivery:** 1-2 business days
+- **Same-Day Delivery:** Available for orders placed before 12:00 PM HKT (subject to availability)
+- **Weekend/Holiday Delivery:** Not available for standard shipping
+
+### 3.2 International Shipping
+
+- **Asia-Pacific Region:** 5-10 business days
+- **Europe & North America:** 10-15 business days
+- **Rest of World:** 15-20 business days
+- **Remote Areas:** Additional 3-5 business days may apply
+
+Note: Delivery times are estimates and may vary based on customs processing, local postal services, and other factors beyond our control.
+
+## 4. Shipping Costs
+
+### 4.1 Cost Calculation
+
+Shipping costs are calculated based on:
+- Package weight and dimensions
+- Destination country and region
+- Shipping method selected
+- Any special handling requirements
+
+### 4.2 Free Shipping
+
+Free standard shipping is available for:
+- Orders exceeding $500 USD (within Asia-Pacific region)
+- Replacement items under warranty
+- Promotional offers as specified
+
+### 4.3 Customs and Duties
+
+- International shipments may be subject to customs duties and taxes
+- Customs fees are the responsibility of the recipient
+- NexaSoft is not responsible for delays caused by customs processing
+- We recommend checking with local customs authorities for applicable fees
+
+## 5. Order Processing
+
+### 5.1 Processing Time
+
+- Orders are typically processed within 1-2 business days
+- Custom-configured items may require additional processing time
+- Orders placed on weekends or holidays will be processed the next business day
+
+### 5.2 Order Confirmation
+
+You will receive:
+- Order confirmation email upon purchase
+- Shipping confirmation with tracking number when dispatched
+- Delivery confirmation upon successful delivery
+
+## 6. Tracking and Delivery
+
+### 6.1 Tracking Information
+
+- Tracking numbers are provided via email upon shipment
+- Track your order through our website or the carrier's website
+- Tracking updates may take 24-48 hours to appear
+
+### 6.2 Delivery Requirements
+
+- Signature may be required for high-value items
+- Valid photo ID may be required for international shipments
+- Someone must be available to receive the package at the delivery address
+
+### 6.3 Failed Delivery Attempts
+
+- Carriers may make up to 3 delivery attempts
+- Packages may be held at a local pickup point after failed attempts
+- Additional delivery charges may apply for re-delivery
+
+## 7. International Shipping
+
+### 7.1 Restricted Countries
+
+We currently ship to most countries worldwide. However, some restrictions may apply due to:
+- Trade sanctions and embargoes
+- Export control regulations
+- Local import restrictions
+
+### 7.2 Documentation
+
+International shipments may require:
+- Commercial invoice
+- Packing list
+- Export declarations
+- Certificates of origin
+
+### 7.3 Compliance
+
+- All shipments comply with Hong Kong export regulations
+- Recipients are responsible for compliance with local import laws
+- Prohibited items will not be shipped
+
+## 8. Damaged or Lost Shipments
+
+### 8.1 Damaged Items
+
+If your shipment arrives damaged:
+1. Document the damage with photographs immediately upon receipt
+2. Note any visible damage when signing for delivery
+3. Contact us within 7 days of receipt at ${BUSINESS.email}
+4. Retain all packaging materials for inspection
+
+### 8.2 Lost Shipments
+
+If your shipment is lost:
+1. Contact us if tracking shows no movement for 7 business days
+2. We will initiate an investigation with the carrier
+3. Replacement or refund will be provided within 14 business days of confirmed loss
+
+### 8.3 Insurance
+
+- Shipments valued over $1,000 USD are automatically insured
+- Additional insurance is available upon request at checkout
+- Insurance claims must be filed within 30 days of delivery or expected delivery
+
+## 9. Returns and Exchanges
+
+### 9.1 Return Eligibility
+
+Physical products may be returned within 14 days of receipt if:
+- Items are in original, unused condition
+- Packaging is intact and undamaged
+- All accessories and documentation are included
+
+### 9.2 Return Shipping
+
+- Return shipping costs are the responsibility of the customer
+- NexaSoft will cover return shipping for defective or incorrect items
+- Returns must be shipped with tracking and insurance
+
+### 9.3 Exchanges
+
+- Exchanges are available for different sizes, colors, or configurations
+- Price differences will be charged or refunded accordingly
+- Exchange items are subject to availability
+
+## 10. Special Shipping Requirements
+
+### 10.1 Temperature-Sensitive Items
+
+Some electronic components may require temperature-controlled shipping:
+- Additional charges may apply
+- Transit times may be extended
+- Special handling instructions will be provided
+
+### 10.2 Hazardous Materials
+
+We do not ship hazardous materials or items requiring special permits unless:
+- Specifically authorized by the client
+- All necessary permits are obtained
+- Proper packaging and labeling are used
+
+## 11. Cancellation of Shipments
+
+- Orders may be cancelled before shipment at no charge
+- Once shipped, orders must be received and returned per our return policy
+- Cancellation requests should be sent to ${BUSINESS.email}
+
+## 12. Contact Information
+
+For shipping inquiries, please contact:
+
+**NexaSoft Solutions Limited**
+Business Registration No.: ${BUSINESS.registrationNumber}
+${BUSINESS.address}
+Email: ${BUSINESS.email}
+Phone: ${BUSINESS.phone}
+
+For urgent shipping matters, please call our support line or email shipping@nexasoft.io.
 `;
 
 /* ============================================================
@@ -639,6 +995,7 @@ export default function Home() {
     privacy: { title: 'Privacy Policy', content: PRIVACY_POLICY },
     refund: { title: 'Refund Policy', content: REFUND_POLICY },
     terms: { title: 'Terms & Conditions', content: TERMS_CONDITIONS },
+    shipping: { title: 'Shipping Policy', content: SHIPPING_POLICY },
   };
 
   const PolicyDialog = isMobile
@@ -978,6 +1335,22 @@ export default function Home() {
                       <div className="text-sm text-muted-foreground">{BUSINESS.phone}</div>
                     </div>
                   </div>
+                  <Separator />
+                  <div className="flex items-start gap-3">
+                    <Globe className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <div className="font-semibold text-sm">Website</div>
+                      <div className="text-sm text-muted-foreground">{BUSINESS.website}</div>
+                    </div>
+                  </div>
+                  <Separator />
+                  <div className="flex items-start gap-3">
+                    <ShieldCheck className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                    <div>
+                      <div className="font-semibold text-sm">Governing Law</div>
+                      <div className="text-sm text-muted-foreground">{BUSINESS.governingLaw}</div>
+                    </div>
+                  </div>
                 </CardContent>
               </Card>
             </div>
@@ -1098,6 +1471,175 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* ---- BUSINESS IDENTIFICATION (Airwallex Requirement) ---- */}
+        <section className="py-16 md:py-20 border-t border-border">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <SectionHeader
+              badge="Business Information"
+              title="Company Details & Legal Information"
+              subtitle="As required by payment service providers, the following business information is publicly available on our website."
+            />
+            <div className="max-w-4xl mx-auto">
+              <Card className="border-border/60">
+                <CardContent className="p-6 md:p-8">
+                  <div className="grid md:grid-cols-2 gap-8">
+                    {/* Left Column - Company Info */}
+                    <div className="space-y-6">
+                      <h3 className="font-semibold text-lg text-foreground flex items-center gap-2">
+                        <Building2 className="h-5 w-5 text-primary" />
+                        Company Information
+                      </h3>
+                      
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Building2 className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Company Name</div>
+                            <div className="text-sm text-muted-foreground">{BUSINESS.name}</div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Zap className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Business Registration Number</div>
+                            <div className="text-sm text-muted-foreground">{BUSINESS.registrationNumber}</div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <MapPin className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Registered Address</div>
+                            <div className="text-sm text-muted-foreground">{BUSINESS.address}</div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <ShieldCheck className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Governing Law</div>
+                            <div className="text-sm text-muted-foreground">{BUSINESS.governingLaw}</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Right Column - Contact Info */}
+                    <div className="space-y-6">
+                      <h3 className="font-semibold text-lg text-foreground flex items-center gap-2">
+                        <Phone className="h-5 w-5 text-primary" />
+                        Contact Information
+                      </h3>
+                      
+                      <div className="space-y-4">
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Mail className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Email Address</div>
+                            <div className="text-sm text-muted-foreground">
+                              <a href={`mailto:${BUSINESS.email}`} className="hover:text-foreground transition-colors underline underline-offset-2">
+                                {BUSINESS.email}
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Phone className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Phone Number</div>
+                            <div className="text-sm text-muted-foreground">
+                              <a href={`tel:${BUSINESS.phone}`} className="hover:text-foreground transition-colors underline underline-offset-2">
+                                {BUSINESS.phone}
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Globe className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Website</div>
+                            <div className="text-sm text-muted-foreground">
+                              <a href={`https://${BUSINESS.website}`} target="_blank" rel="noopener noreferrer" className="hover:text-foreground transition-colors underline underline-offset-2">
+                                {BUSINESS.website}
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-start gap-3">
+                          <div className="w-8 h-8 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                            <Clock className="h-4 w-4 text-primary" />
+                          </div>
+                          <div>
+                            <div className="text-sm font-medium text-foreground">Business Hours</div>
+                            <div className="text-sm text-muted-foreground">Monday - Friday: 9:00 AM - 6:00 PM (HKT)</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Payment Methods Notice */}
+                  <div className="mt-8 pt-6 border-t border-border">
+                    <div className="flex items-start gap-3">
+                      <CreditCard className="h-5 w-5 text-primary mt-0.5 shrink-0" />
+                      <div>
+                        <div className="font-semibold text-sm text-foreground mb-2">Accepted Payment Methods</div>
+                        <div className="text-sm text-muted-foreground mb-3">
+                          We accept the following payment methods for our services:
+                        </div>
+                        <div className="flex flex-wrap gap-2">
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">Visa</Badge>
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">Mastercard</Badge>
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">FPX Online Banking</Badge>
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">Bank Transfer</Badge>
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">Apple Pay</Badge>
+                          <Badge variant="secondary" className="px-3 py-1 text-xs">Google Pay</Badge>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Legal Links */}
+                  <div className="mt-6 pt-6 border-t border-border">
+                    <div className="flex flex-wrap gap-4 text-sm">
+                      <button onClick={() => setPolicyModal('privacy')} className="text-primary hover:text-primary/80 transition-colors underline underline-offset-2">
+                        Privacy Policy
+                      </button>
+                      <button onClick={() => setPolicyModal('refund')} className="text-primary hover:text-primary/80 transition-colors underline underline-offset-2">
+                        Refund Policy
+                      </button>
+                      <button onClick={() => setPolicyModal('terms')} className="text-primary hover:text-primary/80 transition-colors underline underline-offset-2">
+                        Terms & Conditions
+                      </button>
+                      <button onClick={() => setPolicyModal('shipping')} className="text-primary hover:text-primary/80 transition-colors underline underline-offset-2">
+                        Shipping Policy
+                      </button>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
+          </div>
+        </section>
       </main>
 
       {/* ==================== FOOTER ==================== */}
@@ -1202,6 +1744,15 @@ export default function Home() {
                     <ChevronRight className="h-3 w-3" />
                   </button>
                 </li>
+                <li>
+                  <button
+                    onClick={() => setPolicyModal('shipping')}
+                    className="text-sm text-muted-foreground hover:text-foreground transition-colors inline-flex items-center gap-1"
+                  >
+                    Shipping Policy
+                    <ChevronRight className="h-3 w-3" />
+                  </button>
+                </li>
               </ul>
               <div className="mt-6 p-3 rounded-lg bg-muted/50">
                 <div className="text-xs text-muted-foreground">Governing Law</div>
@@ -1221,6 +1772,7 @@ export default function Home() {
               <button onClick={() => setPolicyModal('privacy')} className="hover:text-foreground transition-colors">Privacy Policy</button>
               <button onClick={() => setPolicyModal('refund')} className="hover:text-foreground transition-colors">Refund Policy</button>
               <button onClick={() => setPolicyModal('terms')} className="hover:text-foreground transition-colors">Terms & Conditions</button>
+              <button onClick={() => setPolicyModal('shipping')} className="hover:text-foreground transition-colors">Shipping Policy</button>
             </div>
           </div>
         </div>
@@ -1422,38 +1974,117 @@ export default function Home() {
         {checkoutStep === 2 && (
           <div className="space-y-4">
             <h3 className="font-semibold">Payment Method</h3>
-            <Card className="border-primary cursor-pointer" onClick={handlePlaceOrder}>
-              <CardContent className="p-4 flex items-center gap-4">
-                <div className="w-10 h-10 rounded-lg bg-emerald-100 flex items-center justify-center shrink-0">
-                  <Truck className="h-5 w-5 text-emerald-600" />
-                </div>
-                <div className="flex-1">
-                  <div className="font-semibold text-sm">Cash on Delivery (COD)</div>
-                  <div className="text-xs text-muted-foreground">Pay when the project milestones are delivered. No upfront online payment required.</div>
-                </div>
-                <CreditCard className="h-5 w-5 text-muted-foreground" />
-              </CardContent>
-            </Card>
-            <Card className="border-border/60 opacity-60">
-              <CardContent className="p-4 flex items-center gap-4">
-                <div className="w-10 h-10 rounded-lg bg-muted flex items-center justify-center shrink-0">
-                  <CreditCard className="h-5 w-5 text-muted-foreground" />
-                </div>
-                <div className="flex-1">
-                  <div className="font-semibold text-sm">Online Payment (Coming Soon)</div>
-                  <div className="text-xs text-muted-foreground">Credit card, debit card, and bank transfer options will be available soon.</div>
+            
+            {/* Product Details Summary */}
+            <Card className="border-border/60 bg-muted/30">
+              <CardContent className="p-4">
+                <h4 className="font-semibold text-sm mb-2">Product Details</h4>
+                <div className="space-y-2 text-sm">
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Package:</span>
+                    <span className="font-medium">{selectedProduct?.name}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Description:</span>
+                    <span className="text-right max-w-[60%]">{selectedProduct?.description}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="text-muted-foreground">Delivery:</span>
+                    <span className="font-medium">Digital delivery within 24-48 hours</span>
+                  </div>
                 </div>
               </CardContent>
             </Card>
+
+            {/* Payment Options */}
+            <div className="space-y-3">
+              <h4 className="font-semibold text-sm">Select Payment Method</h4>
+              
+              {/* Credit Card Option */}
+              <Card className="border-border/60 cursor-pointer hover:border-primary/50 transition-colors" onClick={handlePlaceOrder}>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <CreditCard className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-semibold text-sm">Credit / Debit Card</div>
+                    <div className="text-xs text-muted-foreground">Visa, Mastercard, and other major cards accepted. Secure payment via Airwallex.</div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </CardContent>
+              </Card>
+
+              {/* Bank Transfer Option */}
+              <Card className="border-border/60 cursor-pointer hover:border-primary/50 transition-colors" onClick={handlePlaceOrder}>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <Building2 className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-semibold text-sm">Bank Transfer</div>
+                    <div className="text-xs text-muted-foreground">Direct bank transfer via FPX or wire transfer. Processing time: 1-2 business days.</div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </CardContent>
+              </Card>
+
+              {/* Digital Wallet Option */}
+              <Card className="border-border/60 cursor-pointer hover:border-primary/50 transition-colors" onClick={handlePlaceOrder}>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <Smartphone className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-semibold text-sm">Digital Wallet</div>
+                    <div className="text-xs text-muted-foreground">Apple Pay, Google Pay, and other digital wallets. Instant payment confirmation.</div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </CardContent>
+              </Card>
+
+              {/* Cash on Delivery Option */}
+              <Card className="border-border/60 cursor-pointer hover:border-primary/50 transition-colors" onClick={handlePlaceOrder}>
+                <CardContent className="p-4 flex items-center gap-4">
+                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+                    <Truck className="h-5 w-5 text-primary" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-semibold text-sm">Cash on Delivery (COD)</div>
+                    <div className="text-xs text-muted-foreground">Pay when the project milestones are delivered. No upfront online payment required.</div>
+                  </div>
+                  <ChevronRight className="h-4 w-4 text-muted-foreground" />
+                </CardContent>
+              </Card>
+            </div>
+
+            {/* Security Notice */}
+            <div className="rounded-lg bg-emerald-50 dark:bg-emerald-950/30 p-4 border border-emerald-200 dark:border-emerald-800">
+              <div className="flex items-start gap-3">
+                <ShieldCheck className="h-5 w-5 text-emerald-600 dark:text-emerald-400 mt-0.5 shrink-0" />
+                <div className="text-sm">
+                  <div className="font-semibold text-emerald-800 dark:text-emerald-300 mb-1">Secure Payment</div>
+                  <div className="text-emerald-700 dark:text-emerald-400">
+                    All transactions are encrypted with SSL/TLS and processed through secure payment gateways. 
+                    Your payment information is never stored on our servers.
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <Separator />
-            <div className="text-xs text-muted-foreground space-y-1">
+            
+            {/* Terms and Conditions */}
+            <div className="text-xs text-muted-foreground space-y-2">
               <p>By placing this order, you agree to our{' '}
-                <button onClick={() => { setCheckoutOpen(false); setPolicyModal('terms'); }} className="underline hover:text-foreground">Terms & Conditions</button>
-                {' '}and{' '}
-                <button onClick={() => { setCheckoutOpen(false); setPolicyModal('privacy'); }} className="underline hover:text-foreground">Privacy Policy</button>.
+                <button onClick={() => { setCheckoutOpen(false); setPolicyModal('terms'); }} className="underline hover:text-foreground font-medium">Terms & Conditions</button>
+                ,{' '}
+                <button onClick={() => { setCheckoutOpen(false); setPolicyModal('privacy'); }} className="underline hover:text-foreground font-medium">Privacy Policy</button>
+                , and{' '}
+                <button onClick={() => { setCheckoutOpen(false); setPolicyModal('refund'); }} className="underline hover:text-foreground font-medium">Refund Policy</button>.
               </p>
               <p>Your information is secured with SSL encryption. {BUSINESS.name} is registered in {BUSINESS.governingLaw} (Reg. No.: {BUSINESS.registrationNumber}).</p>
             </div>
+
             <Button
               variant="outline"
               className="w-full"
